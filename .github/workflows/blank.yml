@@ -29,5 +29,5 @@ jobs:
         
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/apache/shardingsphere-proxy:5.3.1 docker://registry.cn-hangzhou.aliyuncs.com/o-docker/shardingsphere-proxy:5.3.1
+         skopeo copy docker://docker.io/apache/shardingsphere-proxy:5.1.0 docker://registry.cn-hangzhou.aliyuncs.com/o-docker/shardingsphere-proxy:5.1.0
       # 使用 skopeo 工具将镜像同步到阿里云个人仓库中，使用时请自行源和目标修改仓库名称和镜像名称
